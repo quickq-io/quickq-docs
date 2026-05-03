@@ -1,31 +1,18 @@
 # quickq-docs
 
-> Published documentation site for the [`quickq`](https://github.com/quickq-io/quickq) ecosystem.
+> Placeholder repository in the [`quickq`](https://github.com/quickq-io/quickq) ecosystem.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Status: beta](https://img.shields.io/badge/status-beta-orange.svg)](https://github.com/quickq-io/quickq-docs/issues)
 
-> **Status:** v0.1.x · beta. The published site is not yet live; canonical docs source lives in the [quickq](https://github.com/quickq-io/quickq) repo.
+The published documentation site lives at **<https://quickq-io.github.io/quickq/>**, served from the `gh-pages` branch of the [`quickq`](https://github.com/quickq-io/quickq) repository (built by a GitHub Actions workflow on every push to `main` that touches `docs/` or `mkdocs.yml`).
 
-This repository hosts the published version of the quickq documentation. The canonical source of the docs lives in the main [`quickq`](https://github.com/quickq-io/quickq) repo under `docs/` (mkdocs-material site); a future build pipeline will sync builds from there into this repo for hosting.
+This repo currently has no role beyond holding the `quickq-docs` name. It may be repurposed later for non-mkdocs assets (slide decks, posters, recorded demos) or archived.
 
-## Where to read the docs today
+## Read the docs
 
-Until the published site is up, read the docs from source:
-
-```bash
-git clone https://github.com/quickq-io/quickq.git
-cd quickq
-uv sync
-uv run mkdocs serve         # opens http://127.0.0.1:8000
-```
-
-Or browse the markdown directly on GitHub:
-
-- **[End-to-End Walkthrough](https://github.com/quickq-io/quickq/blob/main/docs/tutorials/end-to-end.md)** — the beta tester quickstart
-- **[The Study Journey](https://github.com/quickq-io/quickq/blob/main/docs/tutorial.md)** — phase-by-phase tour
-- **[Architecture](https://github.com/quickq-io/quickq/blob/main/docs/architecture.md)**
-- **[Design Decisions](https://github.com/quickq-io/quickq/blob/main/docs/design_decisions.md)**
+- Published site: <https://quickq-io.github.io/quickq/>
+- mkdocs source: [`quickq/docs/`](https://github.com/quickq-io/quickq/tree/main/docs)
+- Local preview: `git clone https://github.com/quickq-io/quickq.git && cd quickq && uv sync && uv run mkdocs serve`
 
 ## Related repos
 
